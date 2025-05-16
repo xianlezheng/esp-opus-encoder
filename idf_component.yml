@@ -1,6 +1,8 @@
 dependencies:
   idf: "^5.3"
-  xianlezheng/esp-opus: "^1.0.5"
+  xianlezheng/esp-opus:
+    git: https://github.com/xianlezheng/esp-opus.git
+    version: main
 description: ESP32 Opus Encoder C++ wrapper
 files:
   exclude:
